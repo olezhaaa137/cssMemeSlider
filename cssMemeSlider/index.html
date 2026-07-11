@@ -3,89 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
-    <title>meme-slider</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>suka-zaebalo</title>
   </head>
   <body>
-    <main class="slider">
-      <ul class="slider__images">
-        <li class="slider__image">
-          <img
-            src="./images/1.jpg"
-            alt=""
-            class="slider__image"
-            width="236"
-            height="130"
-          />
-        </li>
-        <li class="slider__image">
-          <img
-            src="./images/2.jpg"
-            alt=""
-            class="slider__image"
-            width="236"
-            height="130"
-          />
-        </li>
-        <li class="slider__image">
-          <img
-            src="./images/3.jpg"
-            alt=""
-            class="slider__image"
-            width="236"
-            height="130"
-          />
-        </li>
-        <li class="slider__image">
-          <img
-            src="./images/4.jpg"
-            alt=""
-            class="slider__image"
-            width="236"
-            height="130"
-          />
-        </li>
-        <li class="slider__image">
-          <img
-            src="./images/5.jpg"
-            alt=""
-            class="slider__image"
-            width="236"
-            height="130"
-          />
-        </li>
-      </ul>
-      <div class="slider__footer">
-        <div class="slider__images-funny-text">
-          <p class="slider__meme-text">котики</p>
-          <p class="slider__meme-text">хочу к тебе</p>
-          <p class="slider__meme-text">ваня это для тебя</p>
-          <p class="slider__meme-text">бонпари кошмарики</p>
-          <p class="slider__meme-text">я скучаю</p>
-        </div>
-        <ul class="inputs">
-          <li class="inputs__item">
-            <input name="meme-button" type="radio" id="meme1" checked />
-            <label for="meme1" class="meme-label"></label>
-          </li>
-          <li class="inputs__item">
-            <input name="meme-button" type="radio" id="meme2"  />
-            <label for="meme2" class="meme-label"></label>
-          </li>
-          <li class="inputs__item">
-            <input name="meme-button" type="radio" id="meme3"  />
-            <label for="meme3" class="meme-label"></label>
-          </li>
-          <li class="inputs__item">
-            <input name="meme-button" type="radio" id="meme4"  />
-            <label for="meme4" class="meme-label"></label>
-          </li>
-          <li class="inputs__item">
-            <input name="meme-button" type="radio" id="meme5"  />
-            <label for="meme5" class="meme-label"></label>
-          </li>
-        </ul>
+    <div class="slider">
+      <input name="meme-button" type="radio" id="meme1" checked />
+      <input name="meme-button" type="radio" id="meme2" />
+      <input name="meme-button" type="radio" id="meme3" />
+      <input name="meme-button" type="radio" id="meme4" />
+      <input name="meme-button" type="radio" id="meme5" />
+
+      <div class="slider__buttons">
+        <label for="meme1" class="meme-label"></label>
+        <label for="meme2" class="meme-label"></label>
+        <label for="meme3" class="meme-label"></label>
+        <label for="meme4" class="meme-label"></label>
+        <label for="meme5" class="meme-label"></label>
       </div>
-    </main>
+      <div class="slider__images">
+        <img
+          src="./images/1.jpg"
+          alt=""
+          class="slider__image"
+          width="236"
+          height="130"
+        />
+        <img
+          src="./images/2.jpg"
+          alt=""
+          class="slider__image"
+          width="236"
+          height="130"
+        />
+        <img
+          src="./images/3.jpg"
+          alt=""
+          class="slider__image"
+          width="236"
+          height="130"
+        />
+        <img
+          src="./images/4.jpg"
+          alt=""
+          class="slider__image"
+          width="236"
+          height="130"
+        />
+        <img
+          src="./images/5.jpg"
+          alt=""
+          class="slider__image"
+          width="236"
+          height="130"
+        />
+      </div>
+      <div class="slider__subtitles">
+        <p class="slider__meme-text">котики</p>
+        <p class="slider__meme-text">хочу к тебе</p>
+        <p class="slider__meme-text">ваня это для тебя</p>
+        <p class="slider__meme-text">бонпари кошмарики</p>
+        <p class="slider__meme-text">я скучаю</p>
+      </div>
+    </div>
   </body>
 </html>
